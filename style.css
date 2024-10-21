@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1110px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Header */
+
+.header {
+  position: relative;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+  background-color: #4b0e9b;
+  background-image: url(photo.jpg);
+  background-size: cover;
+}
+.header-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73.14px;
+  text-align: center;
+  color: #ffffff;
+}
+.header-subtitle {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 31.69px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.heard-arrow button {
+  background-color: gray;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  transform: translate(-50%, 0);
+  width:100px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+/* Portfolio */
+.portfolio  {
+  padding-top: 20px;
+  padding-bottom: 115px;
+}
+.portfolio-header {
+  margin-top: 20px;
+  margin-bottom: 55px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 63.39px;
+  text-align: center;
+}
+.portfolio-card {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img {
+  width: 970px;
+  height: 450px;
+  top: 838px;
+  left: 235px;
+  gap: 0px;
+  border-radius: 30px 0px 0px 0px;
+  opacity: 0px;
+}
+.card-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.82px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+/* Footer */
+.footer {
+  background-color: #363636;
+  height: 428px;
+}
+.footer-row {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+  padding-top: 65px;
+}
+.telegram {
+  font-family: Montserrat;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: center;
+  color: #ffffff;
+
+  width: 370px;
+  height: 140px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px solid gray;
+}
+.whatsap {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: center;
+
+  width: 370px;
+  height: 140px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px solid gray;
+}
+.contact {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: center;
+
+  width: 370px;
+  height: 140px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px solid gray;
+}
+
+.container-contact {
+  font-family: Montserrat;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 63.39px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 80px;
+}
+.copyright {
+  /* width: 1350px; */
+  height: 126px;
+  top: 307px;
+  gap: 0px;
+  opacity: 0px;
+  background: #1e1e1e;
+}
+.copyright-content-name,
+p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  text-align: center;
+}
+.copyright-content {
+  padding-top: 30px;
+}
+/* Project */
+.project {
+  padding-top: 40px;
+  padding-bottom: 120;
+  text-align: center;
+}
+.project-header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73.14px;
+}
+
+.project-description p {
+  color: #1e1e1e;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.82px;
+  text-align: center;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project-button-back {
+  display: inline-block;
+  height: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+  text-decoration: none;
+
+  color: #2236e6;
+  border: 2px solid #2236e6;
+  border-radius: 50px;
+}
+.card-link {
+  text-decoration: none;
+  color: black;
+}
+.card-link:hover {
+  color: rgb(74, 9, 226);
+  transition: 0.5s;
+}
+.visit:hover {
+  transform: translateY(-10px);
+  transition: 0.5s ease-in;
+}
+.project-button-back:hover {
+  background-color: #2236e6;
+  color: #ffffff;
+  transition: all 1s;
+}
+img{
+  max-width: 100%;
+}
+
